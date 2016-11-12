@@ -20,8 +20,8 @@ while(input !== "quit")
     {
         deleteTodo();
     }
-        //ask again for new input
-        input = prompt("What would you like to do?");
+    //ask again for new input
+    input = prompt("What would you like to do?");
 }
 console.log("OK, you quit the app");
 
