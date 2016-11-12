@@ -52,3 +52,11 @@ function max(x)
     }
     return max;
 }
+
+
+// Shorter and faster version of the function Max using Math.max
+// function max(x)
+// {
+//     var ismax = Math.max.apply(null, x);
+//     return ismax;
+// }
