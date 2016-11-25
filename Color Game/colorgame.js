@@ -26,7 +26,7 @@ easyBtn.addEventListener("click", function(){
             squares[i].style.display = "none";
         }
     }
-})
+});
 
 
 hardBtn.addEventListener("click", function(){
@@ -40,7 +40,7 @@ hardBtn.addEventListener("click", function(){
             squares[i].style.background = colors[i];
             squares[i].style.display = "block";
         }
-})
+});
 
 resetButton.addEventListener("click", function(){
     //generate all new colors
@@ -49,13 +49,15 @@ resetButton.addEventListener("click", function(){
     pickedColor = pickColor();
     //change color display to match picked color
     colorDisplay.textContent = pickedColor;
+    resetButton.textContent = "New Colors"
+	messageDisplay.textContent = "";
     //change colors of the squares
     for(var i = 0; i < squares.length; i++){
         squares[i].style.background = colors[i];
     }
-    h1.style.background = "#232323";
+    h1.style.background = "steelblue";
     
-})
+});
 
 colorDisplay.textContent = pickedColor;
 
