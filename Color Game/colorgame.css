@@ -49,6 +49,7 @@ button {border: none;
         letter-spacing: 1px;
         font-size: inherit;
         transition: all .3s;
+        outline: none;
 }
 
 button:hover{ color: white;
