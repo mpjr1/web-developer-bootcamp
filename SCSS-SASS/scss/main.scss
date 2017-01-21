@@ -1,5 +1,5 @@
 @import "variables";
-@import "mixins"
+@import "mixins";
 
 @include fancy-links;
 
@@ -30,7 +30,8 @@ a {
 }
 
 #header {
-  @include box;
+  @include box($border: 1px solid #ffffff, $radius: 12px);
+  @include boxshadow(2px 0px 4px #999, 1px 1px 6px $secondary-color);
   height: $header-height;
   background-color: $theme-color;
   
