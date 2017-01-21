@@ -2,6 +2,8 @@
 @import "partials/mixins";
 
 @include fancy-links;
+@include google-font("Alegreya+Sans");
+@include google-font("Titllium+Web");
 
 body {
   font-family: $text-font;
