@@ -15,6 +15,12 @@
 }
 
 @mixin apply-to-ie-6{
+  * html {
+    @content;
+  }
+}
+
+@mixin apply-to-ie-6{
   * html{
     @content;
   }

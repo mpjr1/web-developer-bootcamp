@@ -26,6 +26,12 @@ a {
   color: $link-color;
 }
 
+@include apply-to-ie-6{
+  body{
+    font-size: 125%;
+  }
+}
+
 .warning-button{
   @include warning;
   padding: 8px 12px;
